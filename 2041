@@ -1,0 +1,12 @@
+g, s, b, t = map(int, input().split())
+
+if t < g:
+    result = "gold"
+elif t < s:
+    result = "silver"
+elif t < b:
+    result = "bronze"
+else:
+    result = "none"
+print(result)
+
