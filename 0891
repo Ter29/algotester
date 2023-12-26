@@ -1,0 +1,4 @@
+n, m =map(int,input().split())
+listN = list(map(int,input().split()))
+listM = list(map(int,input().split()))
+print(min(listM) + min(listN))
