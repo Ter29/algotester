@@ -1,0 +1,16 @@
+import math
+x, y = map(int, input().split())
+act = x**2
+act = act + 4
+act = act * 14
+act = act//7
+act = act - 8
+act = act * 50
+act = math.sqrt(act)
+act = act + 47
+act = act - 10 * x
+if act == y:
+    print("Magic")
+else:
+    print("Too much juice")
+
